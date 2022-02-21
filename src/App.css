@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("../src/img/wp3102647.jpg");
+  background-size: cover;
+  background-color: rgba(17, 11, 11, 0.26);
+  opacity: .9;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav a {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+#nav {
+  margin-right: 40px;
+  position: relative;
+  z-index: 1 !important;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+}
+
+#header-blok {
+  position: absolute;
+  top: 40%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+#header-blok h3 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header-blok h1 {
+  font-size: 80px;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header-blok h6 {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#header-blok b {
+  color: red;
+}
+
+.main1 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+.main1 h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1 #img {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.main1 #img1 {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.main1 #img2 {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.main1 #img3 {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.main1 #card1 {
+  background-color: black;
+  width: 200px !important;
+  margin-right: 10px;
+}
+
+#offer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+#offer .card {
+  background-color: black;
+  color: white;
+}
+
+#offer #offer-img {
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 50px;
+}
+
+#card-offer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#card-offer h1 {
+  font-size: 45px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 900;
+  color: red;
+  text-transform: uppercase;
+}
+
+#card-offer h6 {
+  line-height: 30px;
+}
+
+#about-div {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background: url("./img/bodybuilding-jeremy-buendia-mens-physic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+#about-div #about-opacity {
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+#about-div h1 {
+  font-size: 65px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#about-div h1 b {
+  color: red;
+}
+
+#about-div h6 {
+  margin-top: 10px;
+}
+
+#about-div button {
+  margin-top: 30px;
+  width: 130px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: red;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+#contact h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+#contact form {
+  width: 500px;
+}
+
+#contact form #form-input {
+  background-color: rgba(59, 55, 55, 0.61);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#contact form #btn {
+  width: 500px;
+  background-color: red;
+}
+
+@media (max-width: 750px) {
+  header {
+    background-position: 50% 20% !important;
+    background-position-y: 50px !important;
+  }
+  nav a {
+    margin-left: 50px;
+  }
+  .card-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main1 {
+    height: auto;
+  }
+  #card-offer h1 {
+    margin-left: 0;
+  }
+  .card-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #offer {
+    height: auto;
+  }
+  #offer #offer-img {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+  }
+  #about-div {
+    background-position-x: 40%;
+  }
+  #about-div #about-opacity h1 {
+    text-align: center;
+  }
+  #contact h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #contact form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #contact form #form-input {
+    width: 300px;
+  }
+  #contact form #btn {
+    width: 300px !important;
+  }
+}
+/*# sourceMappingURL=App.css.map */
